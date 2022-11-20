@@ -4,26 +4,53 @@
     <meta charset="utf-8">
     <title>Контакты - Моя первая веб-страница</title>
 </head>
-<body>
+
+<body style="background-color: rgb(133, 151, 52);">
     <div header style="display: flex;
-    flex-direction: row;
-    min-height: 10%;
-    justify-content: space-around;" >
+                        flex-direction: row;
+                        min-height: 10%;
+                        justify-content: space-around;" >
 
-        <a href="../index.html" style="color:black; font-size: 25px ;"><b>Главная</b> </a>
+        <a href="../index.html" 
+                    style="color:black; 
+                    font-size: 25px ;"><b>Главная</b> </a>
+
+         <a href="./about.html" 
+                    style="color:black;
+                    font-size: 25px ;"><b>Обо мне</b> </a>
+    </div>  
 
 
-         <a href="./about.html" style="color:black;font-size: 25px ;"><b>Обо мне</b> </a>
-
-
-</div>  
     <main>
-        <h1>Как нас найти</h1>
-        <address>
-            190000, Санкт-Петербург,<br>
-            Невский проспект, д.1<br>
+        <h1 style="color:black;
+                 text-align: center;"><b>Как меня найти</b></h1>
+        
+        <div style="display: flex;
+                    flex-direction: row;
+                    justify-content: center;">                
+                    <img src="../images/33.jpg" width="50%" >   
+                                                             
+        </div>
+        <br>
+
+        <address style="color:brown; font-size: 30px; text-align: center ">            
+            <a href="https://yandex.ru/maps/213/moscow/geo/molochny_pereulok/10049827/?ll=40.223856%2C36.789535&z=2.8" target="_blank">
+            100000, Москва,<br>
+            пер. Молочный, д.13 </a><br>
             555-55-55<br>
-        </address>        
+
+            <style>  
+            a { color: red; 
+               }
+               a:visited {
+                color: #cecece; 
+               }
+               a:active {
+                color: #ffff00; 
+               }
+               </style> 
+        </address>  
+
     </main>
     <footer style="position: absolute; bottom: 0; left: 0; background:rgba(255, 0, 0, 0.616); width:100%; border-radius: 10px 10px 10px 10px; text-align: center;">
         <span style="color:white">&copy;&nbsp;Skillfactory</span>
